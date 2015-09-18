@@ -1,0 +1,3 @@
+rootProject.name = 'murmur'
+
+include ':app'
