@@ -5,7 +5,7 @@
 'use strict';
 
 var GLOBAL_MESSAGES = {
-  messOne : { message: 'Test message' , comment : "this is shit"},
+  messOne : { message: 'Test message' , comment : "this is first"},
   messTwo : { message: 'test message 2', comment : "no comment" },
   messThree : { message: 'number 3', comment : "hello world"}
 };
@@ -26,7 +26,6 @@ var murmur = React.createClass({
     };
   },
   componentWillMount: function(){
-    console.log("big dicks;gk;gjsdlfsd");
   },
   render: function() {
     // return (
